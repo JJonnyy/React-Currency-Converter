@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*.exchange,*/
+.exchange td,
+.exchange th{
+  border: 1px solid #282c34;
+  padding: 10px 20px;
+  min-width: 150px;
+}
+
+/*table*/
+
+td {
+  position: relative;
+}
+
+.button-cancel{
+  display: none!important;
+}
+.button-cancel.active{
+  display: block!important;
+}
+.exchange td .cell-row{
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.exchange td div input{
+  max-width: 100px;
+}
+.exchange input{
+  max-width: 50px;
+}
